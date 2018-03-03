@@ -3,14 +3,21 @@
 
 
 
-##数据库表
+## 数据库表
+
 一个数据库通常包含一个或多个表。每个表由一个名字标识（例如“客户”或者“订单”）。表包含带有数据的记录（行）。
 
 下面的例子是一个名为 "Persons" 的表：
-![Alt text](./1520084374329.png)
+| Id        | Lastname | FristName | Address       | City   |
+| :-------- | :--------| :-------- | :-------------|:-------|
+| 1         | Adams    |  John     | Oxford Street |London  |
+| 2         |  Bush    | George    | Fifth Avenue  |New York|
+| 3         |  Carter  | Thomas    | Changan Street|Beijing |
+
 上面的表包含三条记录（每一条对应一个人）和五个列（Id、姓、名、地址和城市）。
 
-##SQL 语句
+
+## SQL 语句
 需要在数据库上执行的大部分工作都由 SQL 语句完成。
 
 下面的语句从表中选取 LastName 列的数据：
@@ -18,7 +25,11 @@
 SELECT LastName FROM Person
 ```
 结果集类似这样:
-![Alt text](./1520084647560.png)
+ | Lastname |
+ | :--------| 
+ | Adams    |  
+ |  Bush    |
+ |  Carter  | 
 
 
 ## 重要事项
