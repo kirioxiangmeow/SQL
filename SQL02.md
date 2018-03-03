@@ -8,6 +8,7 @@
 一个数据库通常包含一个或多个表。每个表由一个名字标识（例如“客户”或者“订单”）。表包含带有数据的记录（行）。
 
 下面的例子是一个名为 "Persons" 的表：
+
 | Id        | Lastname | FristName | Address       | City   |
 | :-------- | :--------| :-------- | :-------------|:-------|
 | 1         | Adams    |  John     | Oxford Street |London  |
@@ -25,6 +26,8 @@
 SELECT LastName FROM Person
 ```
 结果集类似这样:
+
+
  | Lastname |
  | :--------| 
  | Adams    |  
